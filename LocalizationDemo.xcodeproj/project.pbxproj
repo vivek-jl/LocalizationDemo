@@ -12,6 +12,7 @@
 		3299176326E88A080037CB30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3299176226E88A080037CB30 /* Assets.xcassets */; };
 		3299176626E88A080037CB30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3299176526E88A080037CB30 /* Preview Assets.xcassets */; };
 		3299177626E88DE80037CB30 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3299177826E88DE80037CB30 /* Localizable.strings */; };
+		3299177C26E8D5700037CB30 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3299177B26E8D5700037CB30 /* Strings+Generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3299176726E88A080037CB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3299177726E88DE80037CB30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3299177926E88DF00037CB30 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3299177B26E8D5700037CB30 /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +78,18 @@
 		3299176D26E88A280037CB30 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
+				3299177A26E8D5470037CB30 /* Generated */,
 				3299177826E88DE80037CB30 /* Localizable.strings */,
 			);
 			path = Localization;
+			sourceTree = "<group>";
+		};
+		3299177A26E8D5470037CB30 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				3299177B26E8D5700037CB30 /* Strings+Generated.swift */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 			files = (
 				3299176126E88A050037CB30 /* ContentView.swift in Sources */,
 				3299175F26E88A050037CB30 /* LocalizationDemoApp.swift in Sources */,
+				3299177C26E8D5700037CB30 /* Strings+Generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
